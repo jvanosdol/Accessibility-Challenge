@@ -25,7 +25,6 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-
 /* Changed the original "header div" to "header nav" */
 header nav {
     padding-top: 15px;
@@ -44,7 +43,17 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/*Used footer tag selector instead of footer class. Moved footer tag selector to top*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
 
+footer h2 {
+    font-size: 20px;
+}
 
 a {
     color: #ffffff;
@@ -91,16 +100,12 @@ p {
     background-color: #2589bd;
 }
 
-
-
 /*Consolidated and removed ".benefit-lead, .benefit-brand, 
 .benefit-cost" down to ".benefit", changed HTMl to reflect changes.*/
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-
 
 /*Consolidated and removed ".benefit-lead h3, .benefit-brand h3, 
 .benefit-cost h3" down to ".benefit h3", changed HTMl to reflect changes.*/
@@ -109,8 +114,6 @@ p {
     text-align: center;
 }
 
-
-
 /*Consolidated and removed".benefit-lead img, .benefit-brand img, 
 .benefit-cost img" down to ".benefit img", changed HTMl to reflect changes.*/
 .benefit img {
@@ -118,8 +121,6 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
-
 
 /*Grouped together ".search-engine-optimization, .online-reputation-management,
 .social-media-marketing" in order to reduce code.*/
@@ -133,8 +134,6 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-
 
 /*Grouped together ".search-engine-optimization img, .online-reputation-management img,
 .social-media-marketing img" in order to reduce code.*/
@@ -155,16 +154,4 @@ p {
     font-size: 36px;
 }
 
-
-
-/*Used footer tag selector instead of footer class. Moved footer tag selector to top*/
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
-}
+/*footer at top, made footer a tag selector */
