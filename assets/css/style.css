@@ -43,7 +43,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/*Used footer tag selector instead of footer class. Moved footer tag selector to top*/
+/*Used footer tag selector instead of footer class selector. Moved footer tag selector to top*/
 footer {
     padding: 30px;
     clear: both;
