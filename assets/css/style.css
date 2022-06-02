@@ -8,27 +8,26 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+/*Used header tag selector instead of a header class*/
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 
-
-
 /* Changed the original "header div" to "header nav" */
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -36,11 +35,11 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -103,7 +102,7 @@ p {
 
 
 
-/*Consolidatedv and removed ".benefit-lead h3, .benefit-brand h3, 
+/*Consolidated and removed ".benefit-lead h3, .benefit-brand h3, 
 .benefit-cost h3" down to ".benefit h3", changed HTMl to reflect changes.*/
 .benefit h3 {
     margin-bottom: 10px;
@@ -136,40 +135,36 @@ p {
 }
 
 
-.search-engine-optimization img {
+
+/*Grouped together ".search-engine-optimization img, .online-reputation-management img,
+.social-media-marketing img" in order to reduce code.*/
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img
+ {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/*Grouped together ".search-engine-optimization h2, .online-reputation-management h2,
+.social-media-marketing h2" in order to reduce code.*/
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2
+ {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-.footer {
+/*Used footer tag selector instead of footer class. Moved footer tag selector to top*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
