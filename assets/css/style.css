@@ -64,6 +64,12 @@ p {
     font-size: 16px;
 }
 
+/*bored*/
+.funny {
+    -webkit-transform: rotate(180deg);
+    display: inline-block;
+}
+
 .hero {
     height: 800px;
     width: 100%;
@@ -153,5 +159,6 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 
 /*footer at top, made footer a tag selector */
